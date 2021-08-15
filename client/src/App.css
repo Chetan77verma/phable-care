@@ -1,0 +1,39 @@
+.app {
+  padding: 25px;
+}
+
+.layout {
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard {
+  margin-top: 20px;
+}
+
+.dashboard-label {
+  margin-bottom: 10px !important;
+}
+.button-cls {
+  text-align: end;
+  margin-top: 20px;
+}
+.custom-lable {
+  display: block;
+    margin: 0 0 .28571429rem 0;
+    color: rgba(0,0,0,.87);
+    font-size: .92857143em;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.submit-button {
+  display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+hr {
+  background-color: #f2711c;
+  height: 2px;
+  border: none;
+}
