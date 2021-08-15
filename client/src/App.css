@@ -21,7 +21,7 @@
   display: block;
     margin: 0 0 .28571429rem 0;
     color: rgba(0,0,0,.87);
-    font-size: .92857143em;
+    font-size: 0.87em;
     font-weight: 700;
     text-transform: none;
 }
@@ -36,4 +36,8 @@ hr {
   background-color: #f2711c;
   height: 2px;
   border: none;
+}
+
+.ui.centered.grid>.row {
+  text-align: left;
 }

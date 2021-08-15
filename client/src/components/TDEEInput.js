@@ -138,7 +138,7 @@ function TDEEInput() {
   const blockInvalidChar = e => ['e', 'E', '+', '-'].includes(e.key) && e.preventDefault();
 
   return (
-    <Grid container>
+    <Grid centered>
       <Grid.Row>
         <Segment style={{ width: "63%" }}>
           <Label basic color="orange" className="dashboard-label">
